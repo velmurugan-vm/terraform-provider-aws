@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 0.12"
 }
 
-provider "aws" {
+provider "gcp" {
   region = var.aws_region
 }
 
